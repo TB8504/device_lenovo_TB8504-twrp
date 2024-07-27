@@ -20,13 +20,13 @@ PRODUCT_RELEASE_NAME := TB8504
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lenovo/TB8504/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_TB8504
+PRODUCT_NAME := twrp_TB8504
 PRODUCT_DEVICE := TB8504
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo TB-8504X

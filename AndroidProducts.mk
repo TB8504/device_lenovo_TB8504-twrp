@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_TB8504.mk
+    $(LOCAL_DIR)/twrp_TB8504.mk
