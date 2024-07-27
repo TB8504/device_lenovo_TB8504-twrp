@@ -47,7 +47,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Crypto
 BOARD_USES_QCOM_DECRYPTION := true
-TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
+TARGET_CRYPTFS_HW_PATH := $(DEVICE_PATH)/cryptfs_hw
 TARGET_HW_DISK_ENCRYPTION := true
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
