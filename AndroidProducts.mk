@@ -16,3 +16,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_TB8504.mk
+
+COMMON_LUNCH_CHOICES := \
+    twrp_TB8504-userdebug \
+    twrp_TB8504-eng
